@@ -11,9 +11,10 @@ const Navbar = () => {
 
         <div className="gpt3__navbar-links_container">
           
-          <p><a href="#wgpt3">What is CLSM?</a></p>         
+          <p><a href="#wgpt3">What is G-ZarD?</a></p>         
           <p><a href="#features">Hall of Fame</a></p>
           <p><a href="#blog">Events</a></p>
+          <p><a href="#contact">Contact-Us</a></p>
         </div>
       </div>
       {/*<div className="gpt3__navbar-sign">
@@ -27,9 +28,10 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
-            <p><a href="#wgpt3">What is CLSM?</a></p>            
+            <p><a href="#wgpt3">What is G-ZarD?</a></p>            
             <p><a href="#features">Hall of Fame</a></p>
             <p><a href="#blog">Events</a></p>
+            <p><a href="#contact">Contact-Us</a></p>
           </div>
           {/*<div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
