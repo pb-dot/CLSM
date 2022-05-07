@@ -86,8 +86,8 @@
 }
 
 .heartbeat {
-	-webkit-animation: heartbeat 2s steps(1, end) infinite both;
-	        animation: heartbeat 2s steps(1, end) infinite both;
+	-webkit-animation: heartbeat 1.5s steps(1, end) infinite both;
+	        animation: heartbeat 1.5s steps(1, end) infinite both;
 }
 
  @-webkit-keyframes heartbeat {

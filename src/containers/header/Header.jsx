@@ -7,7 +7,7 @@ const Header = () => (
   <div className="gpt3__header section__padding " id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text ">#G-ZarD:-Gear Up for the new Gameziness</h1>
-      <p> GiZarD ,
+      <p> G-ZarD ,
 a place where we shape the next
 & test the best, 
 Wizards fighting in the hub we create, 
@@ -23,7 +23,7 @@ Well here you can also become a nightmare for others hence making your dream com
     </div>
 
     <div className="gpt3__header-image">
-      <img src={ai} className="scale-in-center" />
+      <img src={ai} className="shadow-drop-2-center " />
     </div>
   </div>
 );
