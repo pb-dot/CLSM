@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {ClimbingBoxLoader} from "react-spinners";
+import {ClimbingBoxLoader,DotLoader} from "react-spinners";
 import { Footer, Blog, Features, WhatGPT3, Header } from './containers';
 import { CTA, Navbar } from './components';
 
@@ -21,7 +21,7 @@ function App(){
     if(loading){
       return(
         <div className='Loader'>
-                  <ClimbingBoxLoader
+                  <DotLoader
 
         color={"orange"} 
         loading={loading} 
